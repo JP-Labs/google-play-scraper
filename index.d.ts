@@ -190,6 +190,11 @@ export interface IFnAppOptions extends IOptions {
   appId: string
   lang?: string
   country?: string
+  requestOptions: IFnRequestOptions
+}
+
+export interface IFnRequestOptions {
+  proxy: string
 }
 
 export interface IFnApp {
